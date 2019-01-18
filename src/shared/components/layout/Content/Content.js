@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 const Content = (props) => {
   const { children } = props;
@@ -11,8 +11,8 @@ const Content = (props) => {
   )
 }
 
-Content.PropTypes = {
-  children: PropTypes.element.isRequired
+Content.propTypes = {
+  children: propTypes.element.isRequired
 };
 
 export default Content
