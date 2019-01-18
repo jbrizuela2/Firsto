@@ -1,0 +1,26 @@
+.app-title {
+  font-weight: bold;
+}
+
+.Home {
+  margin: 10 auto;
+}
+
+.Home h1{
+  font-size: 32px;
+  color: #333;
+}
+
+.Home p {
+  color: #333;
+  text-align: center;
+}
+
+.Home a{
+  color: #56D5FA;
+  text-decoration: none;
+}
+
+.Home a:hover a:visited{
+  color:#333
+}
